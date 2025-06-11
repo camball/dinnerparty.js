@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+This project is a SvelteKit project for a simple landing page to market an organization.
+
+We use `bun` as the package manager, shadcn-svelte components, and Tailwind 4 for styling. Ensure Svelte 5 syntax is used.
+
+To add new shadcn-svelte components to the repo, run `bun x shadcn-svelte@latest add <component>`, where `<component>` is the component to be added. Once done, ensure they're added to [index.ts](mdc:src/lib/components/ui/index.ts), so that they can be used in Svelte components like `import { Button } from "$lib/components/ui;`.
