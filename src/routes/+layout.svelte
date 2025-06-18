@@ -7,6 +7,20 @@
 <svelte:head>
     <title>dinnerparty.js</title>
     <meta name="description" content="dinnerparty.js - come eat with us" />
+
+    <meta property="og:title" content="dinnerparty.js" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://dinnerparty.dev" />
+    <meta property="og:image" content="https://dinnerparty.dev/dinnerparty.js-link-preview.png" />
+    <meta property="og:site_name" content="dinnerparty.js" />
+    <meta property="og:description" content="dinnerparty.js - come eat with us" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="dinnerparty.js" />
+    <meta name="twitter:description" content="dinnerparty.js - come eat with us" />
+    <meta name="twitter:image" content="https://dinnerparty.dev/dinnerparty.js-link-preview.png" />
+    <meta name="twitter:site" content="@dinnerpartyjs" />
+    <meta name="twitter:creator" content="@dinnerpartyjs" />
 </svelte:head>
 
 <div class="flex h-[100svh] w-screen flex-col bg-[#F2E7E3] lg:p-6">
